@@ -63,13 +63,22 @@ ol {
 }
 hr {
   height: 2px;
-  width: 70px;
-  text-align: center;
-  position: relative;
+  width: 25%;
   background: #1e7a46;
-  margin-bottom: 20px;
-  border: 0;
+  margin-bottom: 1em;
 }
+.center {
+  justify-content: center;
+}
+
+.row {
+  margin-bottom: 1.5em;
+}
+
+.page {
+  padding-top: 10em;
+}
+
 /* Navigation */
 #menu {
   padding: 15px;
@@ -141,7 +150,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 1em;
 }
 .section-title h2 {
   position: relative;
@@ -221,7 +230,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 72px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -240,8 +249,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 25em;
+  padding-bottom: 15em;
   text-align: center;
 }
 /* Features Section */
@@ -261,9 +270,6 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-#about {
-  padding: 100px 0;
-}
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -277,8 +283,8 @@ header .intro-text {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  height: 4px;
-  width: 60px;
+  height: 3px;
+  width: 75px;
   bottom: 0;
   left: 0;
 }
@@ -368,11 +374,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
+  background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -440,14 +442,12 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
-#team {
-  padding: 100px 0;
-}
 #team h4 {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 50%;
+  border-radius: 100%;
 }
 #team .thumbnail {
   background: transparent;
