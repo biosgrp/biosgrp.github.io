@@ -5,7 +5,7 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/people.jpg" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -14,7 +14,7 @@ export const About = (props) => {
                 Biosphere Investment Group is an angel fund based out of Seattle, WA, that invests in entrepreneurs
                 focusing on the tech, life sciences, and fintech sectors.{" "}
               </p>
-              <h3>Portfolio</h3>
+              <h2>Portfolio</h2>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>Aescula</ul>

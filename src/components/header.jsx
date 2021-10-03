@@ -7,12 +7,12 @@ export const Header = (props) => {
             <div className="row">
               <div className="intro-text">
                 <h1>
-                  {"We help visionaries"}
+                  {"We accelerate visionary"}
                   <br />
-                  {"build a brighter future"}
+                  {"founders and startups"}
                   <span></span>
                 </h1>
-                <p>We invest for monumental returns.</p>
+                <p>$X+ invested in N companies, over $Y market value created for our stakeholders</p>
                 <a href="#about" className="btn btn-custom btn-lg page-scroll">
                   Learn More
                 </a>{" "}
