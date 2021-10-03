@@ -52,9 +52,9 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/01.jpg"} alt="" className="team-img" />
+              <img src={"img/team/cbentivenga.jpg"} alt="" className="team-img" />
               <div className="caption">
-                <h4>{"Advisor 1"}</h4>
+                <h4>{"Chris Bentivenga"}</h4>
                 <p>{"."}</p>
               </div>
             </div>
