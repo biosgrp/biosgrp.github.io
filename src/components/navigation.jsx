@@ -1,3 +1,19 @@
+const NavbarBrand = (props) => {
+  return (
+    <div className="nav-brand-container">
+      <a href="#page-top">
+        <div className="nav-brand-text-container">
+          <div className="nav-brand serif">BIOSPHERE</div>
+          <div className="nav-brand2 serif">
+              <span className="lightColor">Investment</span> <span className="darkColor">Group</span>
+          </div>            
+        </div>
+      </a>
+      <img src="img/logov2.png" width="35px"/>
+    </div>
+  );
+}
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -13,9 +29,7 @@ export const Navigation = (props) => {
             <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span> <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Biosphere Investment Group
-          </a>{" "}
+          <NavbarBrand />{" "}
         </div>
 
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

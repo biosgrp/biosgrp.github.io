@@ -44,9 +44,8 @@ export const Team = (props) => {
               <div className="caption">
                 <h4>{"Sen Wei Lu"}</h4>
                 <p>
-                  {""}
-                  <br />
                   {"Startup Consultant, Investor"}
+                  <br />                  
                 </p>
               </div>
             </div>
@@ -74,10 +73,14 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/01.jpg"} alt="" className="team-img" />
+              <img src={"img/team/jchang.jpg"} alt="" className="team-img" />
               <div className="caption">
                 <h4>{"John Chang"}</h4>
-                <p>{"."}</p>
+                <p>
+                  {"Product Manager, Investor"}
+                <br />
+                  {"Crypto, Ex-Capital One"}
+                </p>
               </div>
             </div>
           </div>

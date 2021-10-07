@@ -1,0 +1,10 @@
+.serif {
+  font-family: 'Crimson Text', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sansserif {
+  font-family: 'Open Sans', serif;
+}
