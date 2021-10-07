@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { About } from "./components/about";
+import { Splash } from "./components/splash";
+import { AboutV2 } from "./components/about";
+import { Portfolio } from "./components/portfolio";
 import { Team } from "./components/team";
-import { Contact } from "./components/contact";
+import { ContactV2 } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -22,10 +23,15 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <div className="flexContentContainer">
+        <div className="contentContainer">
+          <Splash data={landingPageData.Header} />
+          <AboutV2 data={landingPageData.About} />
+          <Portfolio />
+          <Team data={landingPageData.Team} />
+          <ContactV2 data={landingPageData.Contact} />
+        </div>
+      </div>
     </div>
   );
 };

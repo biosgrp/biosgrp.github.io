@@ -3,13 +3,19 @@ export const Team = (props) => {
     <div id="team" className="page text-center">
       <div className="container">
         <div className="center section-title">
-          <h2>Meet the Team</h2>
+          <h2>
+            <span className="textDark">Meet </span>
+            <span className="textLight">The Team</span>
+          </h2>
         </div>
-        <div className="center row">
-          <p>We're an eclectic group with a broad range of backgrounds and networks.</p>
+        <div className="centeredRow">
+          <p className="lightBlue">We're an eclectic group with a broad range of backgrounds and networks.</p>
         </div>
-        <div className="center row">
-          <h3>Managing Members</h3>
+        <hr className="divider" />
+        <div className="centeredRow row">
+          <div className="team-header">
+            <h3 className="white">Managing Members</h3>
+          </div>
         </div>
         <div className="row">
           <div className="col-md-4 col-sm-12 team">
@@ -44,17 +50,18 @@ export const Team = (props) => {
               <div className="caption">
                 <h4>{"Sen Wei Lu"}</h4>
                 <p>
-                  {""}
-                  <br />
                   {"Startup Consultant, Investor"}
+                  <br />
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <hr />
-        <div className="center row">
-          <h3>Advisors</h3>
+        <hr className="divider" />
+        <div className="centeredRow row">
+          <div className="team-header">
+            <h3 className="white">Advisors</h3>
+          </div>
         </div>
         <div className="row">
           <div className="col-md-4 col-sm-12 team">
@@ -74,10 +81,14 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/01.jpg"} alt="" className="team-img" />
+              <img src={"img/team/jchang.jpg"} alt="" className="team-img" />
               <div className="caption">
                 <h4>{"John Chang"}</h4>
-                <p>{"."}</p>
+                <p>
+                  {"Product Manager, Investor"}
+                  <br />
+                  {"Crypto, Ex-Capital One"}
+                </p>
               </div>
             </div>
           </div>

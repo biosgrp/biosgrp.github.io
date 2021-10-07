@@ -1,26 +1,22 @@
-export const Contact = (props) => {
+import { AiOutlineMail } from "react-icons/ai";
+
+export const ContactV2 = (props) => {
   return (
-    <div>
-      <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <div className="contact-item">
-                  <p>
-                    <i className="fa fa-envelope-o"></i>
-                    {"info@biosgrp.com"}
-                  </p>
-                </div>
+    <div id="contact">
+      <div className="contact-container">
+        <div className="centeredRow">
+          <div className="col-xs-12 col-md-3">
+            <h2 className="white">Get In Touch</h2>
+          </div>
+          <div className="col-xs-12 col-md-2" />
+          <div className="col-xs-12 col-md-7">
+            <div className="about-text">
+              <div className="contact-content">
+                <AiOutlineMail />
+                <span className="contact-item">info@biosgrp.com</span>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>&copy; 2021 Biosphere Investment Group, LLC</p>
         </div>
       </div>
     </div>
