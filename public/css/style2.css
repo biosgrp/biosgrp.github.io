@@ -148,3 +148,8 @@ p {
 .contact-item {
   padding-left: 0.5em;
 }
+
+/*--------------------- Footer ---------------------*/
+.footer-container {
+  padding: 2em 0;
+}

@@ -8,8 +8,8 @@ export const ContactV2 = (props) => {
           <div className="col-xs-12 col-md-3">
             <h2 className="white">Get In Touch</h2>
           </div>
-          <div className="col-xs-12 col-md-2" />
-          <div className="col-xs-12 col-md-7">
+          <div className="col-xs-12 col-md-1" />
+          <div className="col-xs-12 col-md-8">
             <div className="about-text">
               <div className="contact-content">
                 <AiOutlineMail />
