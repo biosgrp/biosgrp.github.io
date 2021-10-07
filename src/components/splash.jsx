@@ -17,7 +17,7 @@ export const Splash = (props) => {
             Learn More
           </a>{" "}
         </div>
-        <img src="img/banner-1.png" className="splash-img" />
+        <img src="img/banner-1.png" className="splash-img" alt="banner" />
       </div>
     </header>
   );
