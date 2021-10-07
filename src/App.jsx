@@ -5,6 +5,7 @@ import { AboutV2 } from "./components/about";
 import { Portfolio } from "./components/portfolio";
 import { Team } from "./components/team";
 import { ContactV2 } from "./components/contact";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -30,6 +31,7 @@ const App = () => {
           <Portfolio />
           <Team data={landingPageData.Team} />
           <ContactV2 data={landingPageData.Contact} />
+          <Footer />
         </div>
       </div>
     </div>
