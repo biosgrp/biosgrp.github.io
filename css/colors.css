@@ -1,0 +1,36 @@
+.white {
+  color: #fff;
+}
+
+.textDark {
+  color: #5a5a5a;
+}
+
+.textLight {
+  color: #969696;
+}
+
+.lightBlue {
+  color: #7fc4fd;
+}
+
+.middleBlue {
+  color: #5f8dfd;
+}
+
+.darkBlue {
+  color: #545ee8;
+}
+
+.darkGreen {
+  color: #35cb70;
+}
+
+.lightGreen {
+  color: #6defa0;
+}
+
+.gradient {
+  /*6372FF to middle */
+  color: #6372ff;
+}
