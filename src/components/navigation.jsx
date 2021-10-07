@@ -9,7 +9,7 @@ const NavbarBrand = (props) => {
           </div>
         </div>
       </a>
-      <img src="img/logov2.png" className="nav-brand-img" width="40px" />
+      <img src="img/logov2.png" className="nav-brand-img" width="40px" alt="logo" />
     </div>
   );
 };
