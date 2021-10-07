@@ -39,6 +39,11 @@ h3 {
   font-variant: small-caps;
 }
 
+h4 {
+  font-family: "Open Sans", serif;
+  color: #5f8dfd;
+}
+
 p {
   font-family: "Open Sans", serif;
 }
