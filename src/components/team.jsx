@@ -46,7 +46,7 @@ export const Team = (props) => {
           </div>
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
-              <img src={"img/team/01.jpg"} alt="" className="team-img" />
+              <img src={"img/team/slu.png"} alt="" className="team-img" />
               <div className="caption">
                 <h4>{"Sen Wei Lu"}</h4>
                 <p>
@@ -81,7 +81,7 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/jchang.jpg"} alt="" className="team-img" />
+              <img src={"img/team/jchang.png"} alt="" className="team-img" />
               <div className="caption">
                 <h4>{"John Chang"}</h4>
                 <p>
