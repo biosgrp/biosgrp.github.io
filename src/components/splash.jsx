@@ -11,7 +11,6 @@ export const Splash = (props) => {
             {"founders and startups"}
             <span></span>
           </h1>
-          <p>$X+ invested in N companies, over $Y market value created for our stakeholders</p>
           <br />
           <a href="#about" className="btn btn-custom btn-lg page-scroll">
             Learn More

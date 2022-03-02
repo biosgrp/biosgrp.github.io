@@ -9,7 +9,7 @@ export const Team = (props) => {
           </h2>
         </div>
         <div className="centeredRow">
-          <p className="lightBlue">We're an eclectic group with a broad range of backgrounds and networks.</p>
+          <p className="lightBlue">We are an eclectic group with a broad range of backgrounds and networks.</p>
         </div>
         <hr className="divider" />
         <div className="centeredRow row">
@@ -24,9 +24,9 @@ export const Team = (props) => {
               <div className="caption">
                 <h4>{"Conrad Sun"}</h4>
                 <p>
-                  {"Designer, 4IR & Industrial tech"}
+                  {"Designer, 4IR & Industrial Tech"}
                   <br />
-                  {"Founder @ PRJCT 428, Magnetic Textile patent"}
+                  {"Founder @ PRJCT 428, Magnetic Textile Patent"}
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export const Team = (props) => {
                 <p>
                   {"UX and Growth Engineer"}
                   <br />
-                  {"Ex-Lyft, Ex-Microsoft."}
+                  {"Ex-Lyft, Ex-Microsoft"}
                 </p>
               </div>
             </div>
