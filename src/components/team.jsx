@@ -20,7 +20,7 @@ export const Team = (props) => {
         <div className="row">
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
-              <img src={"img/team/csun.png"} alt="" className="team-img" />
+              <img src={"img/team/csun.png"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"Conrad Sun"}</h4>
                 <p>
@@ -33,7 +33,7 @@ export const Team = (props) => {
           </div>
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
-              <img src={"img/team/egoh.jpg"} alt="" className="team-img" />
+              <img src={"img/team/egoh.jpg"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"Ethan Goh"}</h4>
                 <p>
@@ -46,7 +46,7 @@ export const Team = (props) => {
           </div>
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
-              <img src={"img/team/slu.png"} alt="" className="team-img" />
+              <img src={"img/team/slu.png"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"Sen Wei Lu"}</h4>
                 <p>
@@ -67,7 +67,7 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/cbentivenga.jpg"} alt="" className="team-img" />
+              <img src={"img/team/cbentivenga.jpg"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"Chris Bentivenga"}</h4>
                 <p>
@@ -81,7 +81,7 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/jchang.png"} alt="" className="team-img" />
+              <img src={"img/team/jchang.png"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"John Chang"}</h4>
                 <p>
@@ -95,7 +95,7 @@ export const Team = (props) => {
           <div className="col-md-4 col-sm-12 team">
             <div className="thumbnail">
               {" "}
-              <img src={"img/team/xurui.jpg"} alt="" className="team-img" />
+              <img src={"img/team/xurui.jpg"} alt="" className="team-img" loading="lazy" />
               <div className="caption">
                 <h4>{"Xu Rui"}</h4>
                 <p>
