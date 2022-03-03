@@ -1,7 +1,7 @@
 export const Team = (props) => {
   return (
     <div id="team" className="page text-center">
-      <div className="container">
+      <div className="container-fluid">
         <div className="center section-title">
           <h2>
             <span className="textDark">Meet </span>
@@ -11,7 +11,7 @@ export const Team = (props) => {
         <div className="centeredRow">
           <p className="lightBlue">We are an eclectic group with a broad range of backgrounds and networks.</p>
         </div>
-        <hr className="divider" />
+        <div className="divider" />
         <div className="centeredRow row">
           <div className="team-header">
             <h3 className="white">Managing Members</h3>
@@ -57,7 +57,7 @@ export const Team = (props) => {
             </div>
           </div>
         </div>
-        <hr className="divider" />
+        <div className="divider" />
         <div className="centeredRow row">
           <div className="team-header">
             <h3 className="white">Advisors</h3>

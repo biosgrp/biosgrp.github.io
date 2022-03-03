@@ -15,6 +15,10 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true
 });
 
+const BoundingBox = ({ maxWidth, children }) => {
+  return <div style={{ maxWidth }}>{children}</div>;
+};
+
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
@@ -25,14 +29,24 @@ const App = () => {
     <div>
       <Navigation />
       <div className="flexContentContainer">
-        <div className="contentContainer">
+        <BoundingBox maxWidth="85%">
           <Splash data={landingPageData.Header} />
+        </BoundingBox>
+        <BoundingBox maxWidth="100vw">
           <AboutV2 data={landingPageData.About} />
+        </BoundingBox>
+        <BoundingBox maxWidth="85%">
           <Portfolio />
+        </BoundingBox>
+        <BoundingBox maxWidth="85%">
           <Team data={landingPageData.Team} />
+        </BoundingBox>
+        <BoundingBox maxWidth="100vw">
           <ContactV2 data={landingPageData.Contact} />
+        </BoundingBox>
+        <BoundingBox maxWidth="100vw">
           <Footer />
-        </div>
+        </BoundingBox>
       </div>
     </div>
   );
