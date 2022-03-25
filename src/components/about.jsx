@@ -1,12 +1,21 @@
+import styled from "styled-components";
+
+const AboutContainer = styled.div`
+  background: linear-gradient(to right, #7fc4fd 0%, #5f8dfd 100%);
+  color: #fff;
+  border-radius: 0 0 100px 100px;
+  padding: 5em 8em;
+  margin: 7em 0 0 0;
+`;
 export const AboutV2 = (props) => {
   return (
     <div id="about">
-      <div className="about-container">
-        <div className="centeredRow">
-          <div className="col-xs-12 col-md-3">
+      <AboutContainer>
+        <div className="row align-items-center">
+          <div className="col-12 col-md-5 col-lg-3">
             <h2 className="white">About Us</h2>
           </div>
-          <div className="col-xs-12 col-md-9">
+          <div className="col-12 col-md-7 col-lg-9">
             <div className="about-text">
               <p>
                 Biosphere Investment Group is an angel fund based out of Seattle, WA, that invests in entrepreneurs
@@ -15,7 +24,7 @@ export const AboutV2 = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </AboutContainer>
     </div>
   );
 };

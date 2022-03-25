@@ -1,0 +1,42 @@
+{
+  "managingMembers": [
+    {
+      "img": "img/team/csun.png",
+      "name": "Conrad Sun",
+      "line1": "Designer, 4IR & Industrial Tech",
+      "line2": "Founder @ PRJCT 428, Magnetic Textile Patent"
+    },
+    {
+      "img": "img/team/egoh.jpg",
+      "name": "Ethan Goh",
+      "line1": "Engineer, Investor",
+      "line2": "Ex-Lyft, Ex-Microsoft"
+    },
+    {
+      "img": "img/team/slu.png",
+      "name": "Sen Wei Lu",
+      "line1": "Startup Consultant, Investor",
+      "line2": ""
+    }
+  ],
+  "advisors": [
+    {
+      "img": "img/team/cbentivenga.jpg",
+      "name": "Chris Bentivenga",
+      "line1": "UX and Growth Engineer",
+      "line2": "Ex-Lyft, Ex-Microsoft"
+    },
+    {
+      "img": "img/team/jchang.png",
+      "name": "John Chang",
+      "line1": "Product Manager, Investor",
+      "line2": "Crypto, Ex-Capital One"
+    },
+    {
+      "img": "img/team/xurui.jpg",
+      "name": "Xu Rui",
+      "line1": "Product Manager @ Stripe",
+      "line2": "Real Estate, Ex-Microsoft"
+    }
+  ]
+}

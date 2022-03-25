@@ -1,43 +1,47 @@
+import styled from "styled-components";
+import portfolioData from "../data/portfolio.json";
+
+function split(array, n) {
+  let [...arr] = array;
+  const chunkSize = Math.ceil(array.length / n);
+  var res = [];
+  while (arr.length) {
+    res.push(arr.splice(0, chunkSize));
+  }
+  return res;
+}
+
+const PortfolioContainer = styled.div`
+  padding: 10em 8em 0em;
+`;
+
 export const Portfolio = (props) => {
+  const columns = split(portfolioData, 2);
+
   return (
-    <div id="portfolio">
-      <div className="page">
-        <div className="centeredRow">
-          <div className="col-xs-12 col-md-3">
-            <h2>
-              <span className="textDark">Port</span>
-              <span className="textLight">folio</span>
-            </h2>
-          </div>
-          <div className="col-md-1"></div>
-          <div className="col-xs-12 col-md-8">
-            <div className="list-style">
-              <div className="col-md-6 col-sm-6 col-xs-12">
-                <ul>Aescula</ul>
-                <ul>BlueCargo</ul>
-                <ul>Dropleaf</ul>
-                <ul>Jido Maps</ul>
-                <ul>Lotus Pay</ul>
-                <ul>MyStacks</ul>
-                <ul>Original Tech</ul>
-                <ul>PB Tech</ul>
-                <ul>Rain Neuromorphics</ul>
-              </div>
-              <div className="col-md-6 col-sm-6 col-xs-12">
-                <ul>Retool</ul>
-                <ul>Taqtile</ul>
-                <ul>Templarbit</ul>
-                <ul>Tesseract Space</ul>
-                <ul>Tpaga</ul>
-                <ul>Sigma Genetics</ul>
-                <ul>Vathys</ul>
-                <ul>Vena Medical</ul>
-                <ul>VitroLabs</ul>
-              </div>
+    <PortfolioContainer id="portfolio">
+      <div className="row align-items-center">
+        <div className="col-12 col-lg-6 col-xl-3">
+          <h2>
+            <span className="textDark">Port</span>
+            <span className="textLight">folio</span>
+          </h2>
+        </div>
+        <div className="col-12 col-lg-6 col-xl-9">
+          <div className="row list-style">
+            <div className="col-12 col-md-6">
+              {columns[0].map((c) => (
+                <ul key={c}>{c}</ul>
+              ))}
+            </div>
+            <div className="col-12 col-md-6">
+              {columns[1].map((c) => (
+                <ul key={c}>{c}</ul>
+              ))}
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </PortfolioContainer>
   );
 };

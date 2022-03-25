@@ -1,8 +1,19 @@
-export const Splash = (props) => {
+import styled from "styled-components";
+
+const SplashContainer = styled.div`
+  margin: 12rem 0 0;
+`;
+
+const SplashImg = styled.img`
+  width: 40%;
+  padding-left: 2em;
+`;
+
+export const Splash = () => {
   return (
     <header id="header">
-      <div className="splash-container centeredRow">
-        <div className="splash-text">
+      <SplashContainer className="splash-container d-flex justify-content-center align-items-center">
+        <div className="text-center">
           <h1>
             <span className="lightBlue">W</span>
             <span className="darkBlue">e</span>
@@ -16,8 +27,8 @@ export const Splash = (props) => {
             Learn More
           </a>{" "}
         </div>
-        <img src="img/banner-1.png" className="splash-img" alt="banner" />
-      </div>
+        <SplashImg src="img/banner-1.png" className="d-none d-md-block" alt="banner" />
+      </SplashContainer>
     </header>
   );
 };

@@ -1,0 +1,5 @@
+- [ ] about us less gutter
+- [ ] too much space between portfolio and about us
+- [ ] mobile portfolio title needs more space on mobile
+- [ ] mobile get in touch is too narrow
+- [ ] portfoilio list needs more grandure on mobile

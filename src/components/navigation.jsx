@@ -1,67 +1,82 @@
+import styled from "styled-components";
+
+const NavBrandLink = styled.a`
+  text-decoration: none;
+`;
+
+const NavBrandTextContainer = styled.div`
+  display: block;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.42857143;
+`;
+
+const NavBrand = styled.div`
+  font-size: 24px;
+  font-weight: 900;
+  color: #333;
+`;
+
+const NavBrand2 = styled.div`
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: -0.55em;
+`;
+
+const NavBrandImg = styled.img`
+  width: 40px;
+  margin-left: 0.6em;
+`;
+
+const NavLink = styled.a`
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 0em 1.5em;
+  text-decoration: none;
+`;
+
 const NavbarBrand = (props) => {
   return (
-    <div className="nav-brand-container">
-      <a href="#page-top">
-        <div className="nav-brand-text-container">
-          <div className="nav-brand serif">BIOSPHERE</div>
-          <div className="nav-brand2 serif">
+    <div className="d-flex align-items-center">
+      <NavBrandLink href="#page-top">
+        <NavBrandTextContainer>
+          <NavBrand className="serif">BIOSPHERE</NavBrand>
+          <NavBrand2 className="serif">
             <span className="lightColor">Investment</span> <span className="darkColor">Group</span>
-          </div>
-        </div>
-      </a>
-      <img src="img/logov2.png" className="nav-brand-img" width="40px" alt="logo" />
-    </div>
-  );
-};
-
-const NavLinks = (props) => {
-  return (
-    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul className="nav navbar-nav navbar-right serif">
-        <li>
-          <a href="#about" className="nav-item page-scroll">
-            ABOUT
-          </a>
-        </li>
-        <li>
-          <a href="#portfolio" className="nav-item page-scroll">
-            PORTFOLIO
-          </a>
-        </li>
-        <li>
-          <a href="#team" className="nav-item page-scroll">
-            TEAM
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="nav-item page-scroll">
-            CONTACT
-          </a>
-        </li>
-      </ul>
+          </NavBrand2>
+        </NavBrandTextContainer>
+      </NavBrandLink>
+      <NavBrandImg src="img/logov2.png" width="40px" alt="logo" />
     </div>
   );
 };
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span> <span className="icon-bar"></span>{" "}
-          </button>
-          <NavbarBrand />{" "}
-        </div>
+        <NavbarBrand />
 
-        <NavLinks />
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div className="navbar-nav serif">
+            <NavLink className="nav-link page-scroll" href="#about">
+              ABOUT
+            </NavLink>
+            <NavLink className="nav-link page-scroll" href="#portfolio">
+              PORTFOLIO
+            </NavLink>
+            <NavLink className="nav-link page-scroll" href="#team">
+              TEAM
+            </NavLink>
+            <NavLink className="nav-link page-scroll" href="#contact">
+              CONTACT
+            </NavLink>
+          </div>
+        </div>
       </div>
     </nav>
   );
