@@ -23,7 +23,7 @@ export const Splash = () => {
             <span></span>
           </h1>
           <br />
-          <a href="#about" className="btn btn-custom btn-lg page-scroll">
+          <a href="#about" className="btn btn-custom btn-lg">
             Learn More
           </a>{" "}
         </div>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import teamDetails from "../data/team.json";
 
 const TeamContainer = styled.div`
-  padding-top: 10em;
+  padding-top: 5em;
   text-align: center;
 `;
 
@@ -11,12 +11,12 @@ const TeamHeader = styled.div`
   color: #fff;
   border-radius: 0 0 40px 40px;
   padding: 0 5em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   border-top: solid 1px #969696;
 `;
 
 const TeamRowContainer = styled.div`
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 `;
 
 const TeamDetails = ({ img, name, line1, line2 }) => (

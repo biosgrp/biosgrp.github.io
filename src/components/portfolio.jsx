@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import portfolioData from "../data/portfolio.json";
+import { breakpoint } from "../breakpoints";
 
 function split(array, n) {
   let [...arr] = array;
@@ -12,7 +13,11 @@ function split(array, n) {
 }
 
 const PortfolioContainer = styled.div`
-  padding: 10em 8em 0em;
+  padding: 5em 3em 0em;
+  text-align: center;
+  @media ${breakpoint.md} {
+    padding: 8em 8em 0em;
+  }
 `;
 
 export const Portfolio = (props) => {
@@ -21,7 +26,7 @@ export const Portfolio = (props) => {
   return (
     <PortfolioContainer id="portfolio">
       <div className="row align-items-center">
-        <div className="col-12 col-lg-6 col-xl-3">
+        <div className="col-12 col-lg-6 col-xl-3 pb-3 pb-lg-0">
           <h2>
             <span className="textDark">Port</span>
             <span className="textLight">folio</span>
