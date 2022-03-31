@@ -402,22 +402,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 50%;
-  border-radius: 100%;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact h3 {
   color: #fff;

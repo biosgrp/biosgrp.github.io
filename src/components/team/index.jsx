@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import teamDetails from "../data/team.json";
-import { ImLinkedin } from "react-icons/im";
+import teamDetails from "../../data/team.json";
+import { TeamMember } from "./teamMember";
 
 const TeamContainer = styled.div`
   padding-top: 5em;
@@ -20,37 +20,6 @@ const TeamRowContainer = styled.div`
   margin-bottom: 2em;
 `;
 
-const TeamDetails = ({ img, name, line1, line2, linkedin }) => (
-  <div className="col-md-4 col-sm-12 team">
-    <div className="thumbnail">
-      <img src={img} alt="" className="team-img" loading="lazy" />
-      <div className="caption">
-        <div className="d-flex align-items-center justify-content-center">
-          <h4>{name}</h4>
-          {linkedin && (
-            <div className="ps-1">
-              <a
-                className="d-flex align-items-center justify-content-center"
-                target="_blank"
-                rel="noreferrer"
-                href={linkedin}
-                style={{ paddingBottom: "2px" }}
-              >
-                <ImLinkedin size="1.25rem" />{" "}
-              </a>
-            </div>
-          )}
-        </div>
-        <p>
-          {line1}
-          <br />
-          {line2}
-        </p>
-      </div>
-    </div>
-  </div>
-);
-
 const TeamRow = ({ title, members }) => (
   <TeamRowContainer>
     <div className="d-flex justify-content-center align-items-center">
@@ -60,7 +29,7 @@ const TeamRow = ({ title, members }) => (
     </div>
     <div className="row">
       {members.map((memberDetails) => (
-        <TeamDetails key={memberDetails.name} {...memberDetails} />
+        <TeamMember key={memberDetails.name} {...memberDetails} />
       ))}
     </div>
   </TeamRowContainer>
