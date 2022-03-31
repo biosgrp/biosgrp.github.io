@@ -29,8 +29,14 @@ const TeamDetails = ({ img, name, line1, line2, linkedin }) => (
           <h4>{name}</h4>
           {linkedin && (
             <div className="ps-1">
-              <a target="_blank" rel="noreferrer" href={linkedin}>
-                <ImLinkedin />{" "}
+              <a
+                className="d-flex align-items-center justify-content-center"
+                target="_blank"
+                rel="noreferrer"
+                href={linkedin}
+                style={{ paddingBottom: "2px" }}
+              >
+                <ImLinkedin size="1.25rem" />{" "}
               </a>
             </div>
           )}
