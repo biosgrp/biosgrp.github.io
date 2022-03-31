@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import teamDetails from "../data/team.json";
+import { ImLinkedin } from "react-icons/im";
 
 const TeamContainer = styled.div`
   padding-top: 5em;
@@ -19,12 +20,21 @@ const TeamRowContainer = styled.div`
   margin-bottom: 2em;
 `;
 
-const TeamDetails = ({ img, name, line1, line2 }) => (
+const TeamDetails = ({ img, name, line1, line2, linkedin }) => (
   <div className="col-md-4 col-sm-12 team">
     <div className="thumbnail">
       <img src={img} alt="" className="team-img" loading="lazy" />
       <div className="caption">
-        <h4>{name}</h4>
+        <div className="d-flex align-items-center justify-content-center">
+          <h4>{name}</h4>
+          {linkedin && (
+            <div className="ps-1">
+              <a target="_blank" rel="noreferrer" href={linkedin}>
+                <ImLinkedin />{" "}
+              </a>
+            </div>
+          )}
+        </div>
         <p>
           {line1}
           <br />

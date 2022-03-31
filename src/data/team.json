@@ -10,7 +10,8 @@
       "img": "img/team/egoh.jpg",
       "name": "Ethan Goh",
       "line1": "Engineer, Investor",
-      "line2": "Ex-Lyft, Ex-Microsoft"
+      "line2": "Ex-Lyft, Ex-Microsoft",
+      "linkedin": "https://www.linkedin.com/in/ethangoh/"
     },
     {
       "img": "img/team/slu.png",
@@ -24,7 +25,8 @@
       "img": "img/team/cbentivenga.jpg",
       "name": "Chris Bentivenga",
       "line1": "UX and Growth Engineer",
-      "line2": "Ex-Lyft, Ex-Microsoft"
+      "line2": "Ex-Lyft, Ex-Microsoft",
+      "linkedin": "https://www.linkedin.com/in/chrisbenti/"
     },
     {
       "img": "img/team/jchang.png",
@@ -36,7 +38,8 @@
       "img": "img/team/xurui.jpg",
       "name": "Xu Rui",
       "line1": "Product Manager @ Stripe",
-      "line2": "Real Estate, Ex-Microsoft"
+      "line2": "Real Estate, Ex-Microsoft",
+      "linkedin": "https://www.linkedin.com/in/xu-rui-99160a8/"
     }
   ]
 }
