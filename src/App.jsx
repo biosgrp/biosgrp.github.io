@@ -22,23 +22,27 @@ const App = () => {
     <div>
       <Navigation />
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <BoundingBox maxWidth="85%">
-          <Splash />
-        </BoundingBox>
-        <BoundingBox maxWidth="100vw">
-          <AboutV2 />
-        </BoundingBox>
-        <BoundingBox maxWidth="100vw">
-          <Portfolio />
-        </BoundingBox>
-        <BoundingBox maxWidth="85%">
-          <Team />
-        </BoundingBox>
-        <BoundingBox maxWidth="100vw">
-          <ContactV2 />
-        </BoundingBox>
-        <BoundingBox maxWidth="100vw">
-          <Footer />
+        <BoundingBox maxWidth={"1440px"}>
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <BoundingBox maxWidth="85%">
+              <Splash />
+            </BoundingBox>
+            <BoundingBox maxWidth="100%">
+              <AboutV2 />
+            </BoundingBox>
+            <BoundingBox maxWidth="100%">
+              <Portfolio />
+            </BoundingBox>
+            <BoundingBox maxWidth="85%">
+              <Team />
+            </BoundingBox>
+            <BoundingBox maxWidth="100%">
+              <ContactV2 />
+            </BoundingBox>
+            <BoundingBox maxWidth="100%">
+              <Footer />
+            </BoundingBox>
+          </div>
         </BoundingBox>
       </div>
     </div>

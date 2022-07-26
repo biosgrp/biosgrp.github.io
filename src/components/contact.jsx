@@ -6,7 +6,7 @@ const ContactContainer = styled.div`
   background: linear-gradient(to right, #7fc4fd 0%, #5f8dfd 100%);
   color: #fff;
   border-radius: 100px 100px 0 0;
-  width: 100vw;
+  width: 100%;
 
   padding: 5em 3em 3em;
   @media ${breakpoint.md} {
