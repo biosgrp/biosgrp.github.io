@@ -148,6 +148,7 @@ a.page-scroll.active:focus:after {
   font-size: 18px;
 }
 .btn-custom {
+  border-radius: 0;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -158,7 +159,6 @@ a.page-scroll.active:focus:after {
   margin: 0;
   font-size: 15px;
   font-weight: 500;
-  border-radius: 0 0 40px 40px;
   transition: all 0.5s linear;
   border: 0;
 }
@@ -536,7 +536,7 @@ h2 {
 h3 {
   font-family: "Open Sans", serif;
   padding: 0;
-  margin: 0.75em 0;
+  margin: 0.45em 0;
   font-variant: small-caps;
 }
 
