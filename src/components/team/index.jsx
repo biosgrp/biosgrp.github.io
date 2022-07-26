@@ -10,10 +10,8 @@ const TeamContainer = styled.div`
 const TeamHeader = styled.div`
   background: linear-gradient(to right, #7fc4fd 0%, #5f8dfd 100%);
   color: #fff;
-  border-radius: 0 0 40px 40px;
-  padding: 0 5em;
+  padding: 0 3em;
   margin-bottom: 2em;
-  border-top: solid 1px #969696;
 `;
 
 const TeamRowContainer = styled.div`

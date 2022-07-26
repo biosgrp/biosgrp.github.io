@@ -5,7 +5,6 @@ import { breakpoint } from "../breakpoints";
 const ContactContainer = styled.div`
   background: linear-gradient(to right, #7fc4fd 0%, #5f8dfd 100%);
   color: #fff;
-  border-radius: 100px 100px 0 0;
   width: 100%;
 
   padding: 5em 3em 3em;
@@ -20,6 +19,15 @@ const ContactContent = styled.div`
   font-size: 16px;
 `;
 
+const MailTo = styled.a`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+`;
+
 export const ContactV2 = (props) => {
   return (
     <div id="contact">
@@ -32,7 +40,9 @@ export const ContactV2 = (props) => {
             <div className="about-text">
               <ContactContent>
                 <AiOutlineMail />
-                <span className="contact-item">info@biosgrp.com</span>
+                <span className="contact-item">
+                  <MailTo href="mailto:info@biosgrp.com">info@biosgrp.com</MailTo>
+                </span>
               </ContactContent>
             </div>
           </div>

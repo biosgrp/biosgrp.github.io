@@ -5,7 +5,6 @@ import { breakpoint } from "../breakpoints";
 const AboutContainer = styled.div`
   background: linear-gradient(to right, #7fc4fd 0%, #5f8dfd 100%);
   color: #fff;
-  border-radius: 0 0 100px 100px;
   padding: 5em 3em;
   @media ${breakpoint.md} {
     padding: 5em 8em;
